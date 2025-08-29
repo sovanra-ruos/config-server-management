@@ -1,0 +1,14 @@
+#For product service 
+spring:
+  datasource:
+    url: ${db_url}
+    username: ${db_username}
+    password: ${db_password}
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+gitlab:
+  base-url: ${git_lab}
+  personal-access-token: ${gitlab_token}
