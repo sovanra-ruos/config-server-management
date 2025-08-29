@@ -9,6 +9,6 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-gitlab:
-  base-url: ${git_lab}
-  personal-access-token: ${gitlab_token}
+
+server:
+  port: ${server_port}
