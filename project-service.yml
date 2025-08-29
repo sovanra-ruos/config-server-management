@@ -12,3 +12,5 @@ spring:
 
 server:
   port: ${server.port}
+greeting:
+  message: Hello from config server!
